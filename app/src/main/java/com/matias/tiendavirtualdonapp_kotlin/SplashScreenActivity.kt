@@ -13,13 +13,9 @@ import com.google.firebase.database.ValueEventListener
 import com.matias.tiendavirtualdonapp_kotlin.Cliente.MainActivityCliente
 import com.matias.tiendavirtualdonapp_kotlin.Vendedor.MainActivityVendedor
 
-
 class SplashScreenActivity : AppCompatActivity() {
 
-
-
     private lateinit var firebaseAuth: FirebaseAuth
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,9 +41,6 @@ class SplashScreenActivity : AppCompatActivity() {
 
         }.start()
     }
-
-
-
 
     private fun comprobarTipoUsuario(){
         val firebaseUser = firebaseAuth.currentUser
@@ -75,6 +68,4 @@ class SplashScreenActivity : AppCompatActivity() {
                 } )
         }
     }
-
-
 }

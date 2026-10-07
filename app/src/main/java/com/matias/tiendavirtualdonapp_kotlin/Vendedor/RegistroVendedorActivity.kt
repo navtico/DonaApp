@@ -109,17 +109,13 @@ class RegistroVendedorActivity : AppCompatActivity() {
         val emailBD = email
         val tiempoBD = Constantes().obtenerTiempoD()
 
-
         val datosVendedor = HashMap<String, Any>()
-
-
 
         datosVendedor["uid"] = "$uidBD"
         datosVendedor["nombres"] = "$nombreBD"
         datosVendedor["email"] = "$emailBD"
         datosVendedor["tipoUsuario"] = "vendedor"
         datosVendedor["tiempo_registro"] = "$tiempoBD"
-
 
         val references = FirebaseDatabase.getInstance().getReference("Usuarios")
         references.child(uidBD!!)

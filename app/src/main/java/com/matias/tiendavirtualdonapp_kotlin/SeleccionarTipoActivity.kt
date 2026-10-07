@@ -20,7 +20,6 @@ class SeleccionarTipoActivity : AppCompatActivity() {
 
 
 
-
         binding.TipoVendedor.setOnClickListener {
             startActivity(Intent(this@SeleccionarTipoActivity, LoginVendedorActivity::class.java))
         }
