@@ -13,6 +13,7 @@
     <!--NavigationDrawer Vendedor-->
     <string name="op_inicio_v">Inicio</string>
     <string name="op_mi_tienda_v">Mi Tienda</string>
+    <string name="op_categorias_v">Categorias</string>
     <string name="op_resenia_v">Reseñas</string>
     <string name="op_cerrar_sesion_v">Cerrar sesión</string>
 
@@ -64,7 +65,6 @@
     <string name="tvRegistrarC">Registrarme</string>
 
 
-
     <!--Productos-->
     <string name="txtAgregarProductos">Agregar productos</string>
     <string name="etNombresP">Nombre del producto</string>
@@ -76,7 +76,6 @@
     <string name="etNotaDescuentoP">Ejemplo: 10% de Descuento</string> <!--Modificar en la version final-->
     <string name="btnAgregarProducto">Agregar producto</string>
 
-    
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

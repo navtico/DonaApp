@@ -48,7 +48,6 @@ class AgregarProductoActivity : AppCompatActivity() {
         binding.RVImagenesProducto.adapter = adaptadorImagenSel
     }
 
-
     private fun seleccionarImg(){
         ImagePicker.with(this)
             .crop()
@@ -58,7 +57,6 @@ class AgregarProductoActivity : AppCompatActivity() {
                 resultadoImg.launch(intent)
             }
     }
-
     private val resultadoImg =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()){resultado->
             if (resultado.resultCode == Activity.RESULT_OK){

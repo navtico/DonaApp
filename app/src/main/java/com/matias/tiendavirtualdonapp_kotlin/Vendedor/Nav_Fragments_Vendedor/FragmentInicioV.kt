@@ -14,7 +14,6 @@ import com.matias.tiendavirtualdonapp_kotlin.Vendedor.Bottom_Nav_Fragments_Vende
 import com.matias.tiendavirtualdonapp_kotlin.Vendedor.Productos.AgregarProductoActivity
 import com.matias.tiendavirtualdonapp_kotlin.databinding.FragmentInicioVBinding
 
-
 class FragmentInicioV : Fragment() {
 
     private lateinit var binding : FragmentInicioVBinding
@@ -24,7 +23,6 @@ class FragmentInicioV : Fragment() {
         mContext = context
         super.onAttach(context)
     }
-
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         binding = FragmentInicioVBinding.inflate(inflater, container, false)
@@ -43,6 +41,9 @@ class FragmentInicioV : Fragment() {
         }
 
 
+
+
+
         replaceFragment(FragmentMisProductosV())
         binding.bottomNavigation.selectedItemId = R.id.op_mis_productos_v
 
@@ -52,10 +53,7 @@ class FragmentInicioV : Fragment() {
         }
 
         return binding.root
-
-
     }
-
 
     private fun replaceFragment(fragment: Fragment) {
         parentFragmentManager
