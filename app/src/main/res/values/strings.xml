@@ -70,11 +70,28 @@
     <string name="etNombresP">Nombre del producto</string>
     <string name="etDescripcionP">Descripción</string>
     <string name="Categoria">Categoria</string>
-    <string name="EtPrecioP">Precio</string>  <!--Modificar en la version final-->
+    <string name="etPrecioP">Precio</string>  <!--Modificar en la version final-->
     <string name="txtDescuento">Descuento</string> <!--Modificar en la version final-->
     <string name="etPrecioConDescuentoP">Precio con descuento apli.</string> <!--Modificar en la version final-->
     <string name="etNotaDescuentoP">Ejemplo: 10% de Descuento</string> <!--Modificar en la version final-->
     <string name="btnAgregarProducto">Agregar producto</string>
+
+
+
+    <!--Agregar categorias-->
+    <string name="etCategoria">Ingrese categorías</string>
+    <string name="btnAgregarCat">Agregar categoría</string>
+
+
+
+    <!--Item categoria - v-->
+    <string name="item_nombre_c_v">Nombre de categoria</string>
+
+
+    <!--Item producto - v-->
+    <string name="item_nombre_p">Nombre del producto</string>
+    <string name="item_precio_p">00</string>
+    <string name="item_precio_p_desc">00</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

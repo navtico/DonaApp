@@ -21,7 +21,7 @@
         <item
             android:id="@+id/op_categorias_v"
             android:title="@string/op_categorias_v"
-            android:icon="@drawable/ico_inicio"/>
+            android:icon="@drawable/ico_categoria"/>
 
 
         <!--Mi tienda-->

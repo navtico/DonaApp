@@ -115,18 +115,33 @@
             </com.google.android.material.textfield.TextInputLayout>
 
 
+            <!--Categoria-->
+            <TextView
+                android:id="@+id/Categoria"
+                android:hint="@string/Categoria"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                app:drawableEndCompat="@drawable/ico_abajo"
+                android:gravity="center_vertical"
+                android:background="@drawable/custom_edittext"
+                android:layout_below="@id/TIL_DescripcionP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
 
 
             <!--Precio--> <!--Modificar en la version final-->
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/TIL_Precio"
-                android:layout_below="@id/TIL_DescripcionP"
+                    android:layout_below="@id/Categoria"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <EditText
-                    android:id="@+id/EtPrecioP"
-                    android:hint="@string/EtPrecioP"
+                    android:id="@+id/etPrecioP"
+                    android:hint="@string/etPrecioP"
                     android:inputType="numberDecimal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
@@ -135,7 +150,7 @@
             </com.google.android.material.textfield.TextInputLayout>
             <!--Switch-->
             <androidx.appcompat.widget.SwitchCompat
-                android:id="@+id/DescuentoSwitch"
+                android:id="@+id/descuentoSwitch"
                 android:text="@string/txtDescuento"
                 android:layout_below="@id/TIL_Precio"
                 android:layout_width="match_parent"

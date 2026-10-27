@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "com.matias.tiendavirtualdonapp_kotlin"
-        minSdk = 23
+        minSdk = 24
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"
@@ -45,6 +45,7 @@ dependencies {
     implementation(libs.firebaseDatabase) /*Base de datos con firebase*/
     implementation(libs.imagePicker) /*Recortar una imagen*/
     implementation(libs.glide) /*Leer imagenes*/
+    implementation(libs.storage) /*Subir archivos multimedia*/
     implementation(libs.androidx.core.ktx)
     implementation(libs.material)
     testImplementation(libs.junit)
